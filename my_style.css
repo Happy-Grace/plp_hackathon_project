@@ -1,0 +1,596 @@
+/* STYLING STARTS HERE */
+
+
+/* FONTS STYLING */
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+/* .lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+} */
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* .lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+} */
+
+/* .lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+} */
+
+/* BODY STYLING */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #808080;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+/* HEADER/NAVIGATION STYLING */
+.nav-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  color: whitesmoke;
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 22px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: maroon;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f0c330;
+}
+
+header .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* HOME SECTION STYLING */
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1100px;
+}
+
+#home-page {
+  color: whitesmoke;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#home-page h2 {
+  font-size: 1.7rem;
+  /* padding: 10px; */
+}
+
+#home-page span {
+  color: #f0c330;
+}
+
+#home-page p {
+  padding: 7px;
+  font-size: 18px;
+}
+
+#home-page a {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: lightblue;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#home-page a:hover {
+  color: #f0c330;
+  cursor: pointer;
+}
+
+/* ABOUT ME SECTION STYLING */
+#about {
+  margin-top: 15px;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  background: cadetblue;
+  text-align: center;
+}
+
+#about h2 {
+  margin-top: 35px;
+  color: black	;
+  text-shadow: 0px 0px whitesmoke;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+#about img {
+  width: 28%;
+  height: 42vh;
+  border-radius: 50%;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#about p {
+  padding: 3px 7px;
+  font-size: 17px;
+  color: whitesmoke;
+}
+
+#about a {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: wheat;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#about a:hover {
+  color: #f0c330;
+  cursor: pointer;
+}
+
+#about ol {
+  list-style: lower-roman;
+  display: inline-block;
+}
+
+#about li {
+  padding: 3px 7px;
+  font-size: 17px;
+  color: whitesmoke;
+}
+
+/* PROJECTS SECTION STYLING */
+#projects {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#projects h2 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: black	;
+  text-shadow: 0px 0px whitesmoke;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.works-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.project-works {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 74vh;
+  margin: 0 auto;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  padding: 12px 0;
+  justify-content: center;
+  border: 1px solid antiquewhite;
+  border-radius: 10px;
+}
+
+.project-works h3 {
+  margin-bottom: 15px;
+  color: black;
+  text-shadow: 0 0 wheat;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.project-works img {
+  width: 70%;
+  height: 50%;
+  align-self: center;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.project-works p {
+  text-wrap: wrap;
+  padding: 5px;
+  color: whitesmoke;
+  font-size: 17px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.project-works a {
+  padding: 10px 20px;
+  color: lightblue;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.project-works a:hover {
+  color: #f0c330;
+  cursor: pointer;
+}
+
+
+/* CONTACT INFO SECTION STYLING */
+#contact {
+  padding: 20px 0;
+  justify-items: center;
+  color: black;
+}
+
+.contact-container {
+  width: 33%;
+  height: 100vh;
+  border: 1px solid antiquewhite;
+  border-radius: 5px;
+  padding-left: 35px;
+  font-size: 17px;
+  background: burlywood;
+}
+
+#contact h2 {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  color: black	;
+  text-shadow: 0px 0px whitesmoke;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.contact-container p {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+/* .contact-container label {
+  padding-bottom: 50px;
+} */
+
+.contact-container input {
+  width: 85%;
+  line-height: 2rem;
+  font-size: 15px;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: antiquewhite;
+}
+
+.contact-container textarea {
+  width: 85%;
+  line-height: 3rem;
+  font-size: 15px;
+  padding-left: 8px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid whitesmoke;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: antiquewhite;
+}
+
+.contact-container button {
+  width: 20%;
+  line-height: 1.5rem;
+  padding: 5px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  border-radius: 7px;
+  border: 1px solid whitesmoke;
+  margin-top: 17px;
+  display: block;
+  justify-self: center;
+  background: antiquewhite;
+}
+
+.contact-container button:hover {
+  background-color: wheat;
+  color: black;
+  text-shadow: 0 0 whitesmoke;
+  cursor: pointer;
+}
+
+
+/* FOOTER SECTION STYLING */
+#footer {
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px;
+  background: #555;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 17px;
+}
+
+
+/* RESPONSIVE STYLING */
+@media only screen and (min-width: 1075px) {
+  .project-works h3 {
+    padding-top: 12px;
+  }
+
+  .project-works a {
+    padding-bottom: 12px;
+  }
+
+}
+
+@media only screen and (min-width: 1068px) and (max-width: 1075px) {
+  .project-works {
+    width: 45%;
+    height: 80vh;
+    padding: 12px 0;
+    
+  }
+
+  .contact-container {
+    width: 40%;
+    height: 105vh;
+  }
+  
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1067px) {
+  .project-works {
+    width: 45%;
+    height: 95vh;
+    padding: 17px 0;
+    
+  }
+
+  .contact-container {
+    width: 50%;
+    height: 110vh;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* .works-container {
+    width: 100%;
+  } */
+
+  .project-works {
+    width: 65%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 17px 0;
+    
+  }
+
+  .contact-container {
+    width: 60%;
+    height: 110vh;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  #about img {
+    width: 55%;
+    height: 50vh;
+    margin-top: 18px;
+    margin-bottom: 15px;
+  }
+
+  #about p {
+    padding: 15px 10px;
+  }
+
+  .project-works {
+    width: 80%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 17px 0;
+    
+  }
+
+  .contact-container {
+    width: 75%;
+    height: 110vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .nav-container h1 {
+    font-size: 17px;
+    padding-left: 7px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 5px;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 600px;
+  }
+
+  #home-page {
+    color: whitesmoke;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  #home-page h2 {
+    font-size: 1.1rem;
+  }
+
+  #home-page p {
+    font-size: 15px;
+  }
+
+  #home-page a {
+    font-size: 15px;
+  }
+
+  #about img {
+    width: 60%;
+    height: 50vh;
+  }
+
+  #about h2 {
+    font-size: 1.3rem;
+  }
+
+  #about p {
+    font-size: 15px;
+  }
+
+  #about a {
+    font-size: 15px;
+  }
+
+  #about li {
+    font-size: 15px;
+  }
+
+  .project-works {
+    width: 85%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 17px 0;
+  }
+
+  .project-works p {
+    font-size: 15px;
+    text-wrap: wrap;
+  }
+
+  .project-works a {
+    font-size: 15px;
+  }
+
+  .contact-container {
+    width: 80%;
+    height: 105vh;
+    padding-left: 15px;
+  }
+
+  .contact-container input {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .contact-container label {
+    font-size: 13px;
+  }
+
+  .contact-container button {
+    font-size: 13px;
+  }
+
+  .contact-container textarea {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  #footer {
+    font-size: 15px;
+  }
+}
